@@ -1,0 +1,22 @@
+.prose {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.prose p {
+  font-size: var(--text-base);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+}
+
+.prose strong {
+  color: var(--color-text-primary);
+  font-weight: var(--font-semibold);
+}
+
+.accent {
+  color: var(--color-teal) !important;
+  font-weight: var(--font-semibold);
+}
+

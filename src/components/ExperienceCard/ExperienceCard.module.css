@@ -1,0 +1,104 @@
+/* ── Horizontal card: date-left, content-right ─────────────────────────────── */
+.card {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: var(--space-3) var(--space-6);
+  padding: var(--space-5) var(--space-4);
+  border-radius: var(--radius-lg);
+  border: 1px solid transparent;
+  transition:
+    background-color var(--transition-base),
+    border-color var(--transition-base);
+  margin-bottom: var(--space-2);
+}
+
+.card:hover {
+  background-color: var(--color-navy-light);
+  border-color: var(--color-teal-border);
+}
+
+/* ── Date column ─────────────────────────────────────────────────────────────── */
+.date {
+  padding-top: 4px;
+}
+
+.dateText {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--color-text-secondary);
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+/* ── Content column ──────────────────────────────────────────────────────────── */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.role {
+  font-size: var(--text-base);
+  font-weight: var(--font-semibold);
+  color: var(--color-text-primary);
+  line-height: var(--leading-snug);
+}
+
+.card:hover .role {
+  color: var(--color-teal);
+}
+
+.company {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  font-weight: var(--font-medium);
+}
+
+.location {
+  color: var(--color-text-secondary);
+  font-weight: var(--font-normal);
+}
+
+/* ── Achievement list ────────────────────────────────────────────────────────── */
+.achievements {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.achievement {
+  display: flex;
+  gap: var(--space-2);
+  align-items: flex-start;
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+}
+
+.bullet {
+  color: var(--color-teal);
+  font-size: 0.7rem;
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+
+/* ── Mobile: stack date above content ────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .card {
+    grid-template-columns: 1fr;
+    gap: var(--space-1);
+    padding: var(--space-4) var(--space-3);
+  }
+
+  .date {
+    padding-top: 0;
+  }
+}
+

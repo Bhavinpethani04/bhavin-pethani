@@ -1,0 +1,31 @@
+.section {
+  padding-top: var(--section-padding-y);
+  padding-bottom: var(--space-12);
+}
+
+/* Compact eyebrow heading */
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  margin-bottom: var(--space-10);
+}
+
+.eyebrowLine {
+  display: block;
+  width: 40px;
+  height: 1px;
+  background-color: var(--color-teal);
+  flex-shrink: 0;
+}
+
+.eyebrowText {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: var(--font-semibold);
+  color: var(--color-teal);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
