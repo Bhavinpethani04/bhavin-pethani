@@ -4,7 +4,7 @@ export const personalInfo: PersonalInfo = {
   name: 'Bhavin Pethani',
   title: 'Front-End Web & Mobile Developer',
   tagline:
-    'Building responsive, accessible, and high-performance web & mobile experiences with React and React Native.',
+    'Crafting pixel-perfect, accessible, high-performance applications with React, React Native, and Angular — turning complex product requirements into scalable component architectures that teams love to work with.',
   location: 'Kitchener, Ontario, Canada',
   phone: '+1 437 254 3760',
   email: 'bhavinpethani004@gmail.com',
