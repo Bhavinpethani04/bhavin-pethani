@@ -5,13 +5,13 @@ export const skillCategories: SkillCategory[] = [
     id: 'frontend',
     category: 'Front-End',
     icon: '🖥️',
-    skills: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'TypeScript', 'Responsive Design', 'Web Accessibility (ARIA / WCAG 2.1)'],
+    skills: ['HTML5', 'CSS3', 'Sass / SCSS', 'CSS Modules', 'Tailwind CSS', 'Flexbox / Grid', 'JavaScript (ES6+)', 'TypeScript', 'Responsive Design', 'Web Accessibility (ARIA / WCAG 2.1)'],
   },
   {
     id: 'frameworks',
     category: 'Frameworks & Libraries',
     icon: '⚛️',
-    skills: ['React.js', 'React Native', 'Angular', 'Next.js', 'Expo', 'RxJS', 'Angular Material'],
+    skills: ['React.js', 'React Native', 'Angular', 'Next.js', 'Expo', 'RxJS', 'Angular Material', 'React Hook Form'],
   },
   {
     id: 'mobile',
@@ -35,7 +35,7 @@ export const skillCategories: SkillCategory[] = [
     id: 'apis',
     category: 'APIs & Data',
     icon: '🔗',
-    skills: ['RESTful APIs', 'Axios', 'Firebase (Auth / Firestore / Functions)', 'JSON'],
+    skills: ['RESTful APIs', 'GraphQL', 'Axios', 'TanStack Query (React Query)', 'WebSockets', 'Firebase (Auth / Firestore / Functions)', 'JSON'],
   },
   {
     id: 'performance',
@@ -47,13 +47,13 @@ export const skillCategories: SkillCategory[] = [
     id: 'testing',
     category: 'Testing',
     icon: '✅',
-    skills: ['Jest', 'React Testing Library', 'Jasmine / Karma', 'Unit Testing', 'Integration Testing'],
+    skills: ['Jest', 'React Testing Library', 'Cypress', 'Playwright', 'Jasmine / Karma', 'Unit Testing', 'Integration Testing', 'E2E Testing'],
   },
   {
     id: 'devops',
     category: 'DevOps & Tooling',
     icon: '🚀',
-    skills: ['Git', 'GitHub Actions', 'CI/CD Pipelines', 'Vite', 'Webpack'],
+    skills: ['Git', 'GitHub Actions', 'CI/CD Pipelines', 'ESLint / Prettier', 'Vite', 'Webpack', 'Vercel / Netlify'],
   },
   {
     id: 'methodologies',
@@ -65,7 +65,7 @@ export const skillCategories: SkillCategory[] = [
     id: 'ai',
     category: 'AI Tools',
     icon: '🤖',
-    skills: ['AI-assisted Development', 'GitHub Copilot', 'ML Kit (OCR)', 'ML Kit (Image Labeling)'],
+    skills: ['Augment Code', 'GitHub Copilot', 'Cursor', 'Windsurf', 'Claude', 'ChatGPT', 'v0 by Vercel', 'ML Kit (OCR)', 'ML Kit (Image Labeling)', 'ML Kit (Barcode Scanning)', 'ML Kit (Document Scanner)'],
   },
 ];
 
